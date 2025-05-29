@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enc Noenc Tools - by Xinsanjin</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0f0f0f;
+      color: #00ffcc;
+      font-family: 'Share Tech Mono', monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      text-shadow: 0 0 5px #00ffcc, 0 0 20px #008877;
+      animation: glitch 1.5s infinite;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 80%;
+    }
+
+    a.button {
+      margin-top: 25px;
+      padding: 12px 24px;
+      background-color: transparent;
+      border: 2px solid #00ffcc;
+      color: #00ffcc;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    a.button:hover {
+      background-color: #00ffcc;
+      color: #000;
+      box-shadow: 0 0 10px #00ffcc;
+    }
+
+    @keyframes glitch {
+      0% { text-shadow: 1px 1px red; }
+      25% { text-shadow: -1px -1px blue; }
+      50% { text-shadow: 2px -2px lime; }
+      75% { text-shadow: -2px 2px magenta; }
+      100% { text-shadow: 0 0 5px #00ffcc; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Enc / Noenc Tools</h1>
+  <p>Created by <strong>Xinsanjin</strong>. Tools untuk encode dan decode file WhatsApp bot / projek Node.js. Guna dengan bijak!</p>
+  <a class="button" href="https://github.com/Xinsanjin15/enc-noenc-tools-byxinnsanjin/raw/main/enc-noenc-tool.zip" download>📥 Download Tools (.zip)</a>
+</body>
+</html>
